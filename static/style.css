@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #ebeae6;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  }
+  
+  h1,
+  label {
+    color: black;
+    font-weight:bolder;
+  }
+  
+  h1 {
+    padding-top: 30px;
+    font-size: 3em;
+  }
+  
+  .container {
+    width:auto;
+    height: 140vh;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .container .main-container {
+    position: relative;
+    height: 110vh;
+  }
+  .main-container{
+    background-color: #FFFFFF;
+    width: auto;
+    display:flex;
+    padding-left: 100px;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 8px;
+    border-color: #01634d;
+  
+    
+  }
+  
+  hr {
+    color: #02221b;
+    margin-top: 30px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  /* CSS */
+  .button-34 {
+    background: #01634d;
+    border-radius: 5px;
+    box-shadow: #000000 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    width: 120px;
+  }
+  
+  .button-34:hover {
+    background-color: #23856d;
+  }
+  
+  form{
+    margin-left: 28px;
+    padding-top: 30px;
+  }
+  .form-control {
+    width: 40%;
+  }
+  .desc{
+    width: 83.5%;
+    height: 80px;
+  }
+  
+  .title {
+    width: 83.5%;
+    height: 40px;
+  }
+  
+  .container .main-container .form-control{
+    display: inline-block;
+    gap: 8px;
+  }
+  .mes{
+    display: flex;
+    align-items: center;
+  }
+  
+  .message2{
+    margin: 0 auto;
+    color: #588157;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+  }
+  
+  .message1{
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 20px 40px;
+    color: red;
+    border-radius: 5px;
+    
+  }
+  
+  .imgbox {
+    position: relative;
+    padding-right: 60px;
+    padding-top: 90px;
+    float:left;
+  }
+  
+  .guy{
+    width: 350px;
+    height: auto;
+  }
+  .main-container h1{
+    color: #01634d;
+    font-weight: bold;
+    position: absolute;
+    bottom: 430px;
+    font-size: 220px;
+    z-index: 999;
+    padding-left: 240px;
+    transform: rotate(13deg);
+  }
+  
+  .imgbox h2{
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .imgbox h4{
+    padding-top: 20px;
+    font-size: medium;
+    font-weight: 200;
+    text-align: justify;
+  }
+  .alert-success-alt {
+    border-color: #19B99A;
+    background: #20A286;
+    color: #fff;
+  }
+  
+  .modal .modal-dialog .modal-content .modal-body button{
+    border: 1px solid gray;
+    float: right;
+  }
+  
+  .modal .modal-dialog .modal-content .modal-body .ms {
+    font-size: 2em;
+    color: #9e2a2b;
+    font-weight: bold;
+  }
+  
+  .modal .modal-dialog .modal-content .modal-body .mss {
+    font-size: 2em;
+    color: #55a630;
+    font-weight: bold;
+  }
+  
+  
+  
+  .container .main-container form select,
+  select option {
+    color: #000000;
+  }
+  
+  .container .main-container form select:invalid,
+  select option[value="Employment Type"] {
+    color: #999999;
+  }
+  
+  .container .main-container form select,
+  select:invalid {
+    color: rgb(0, 0, 0);
+  }
+  
+  img{
+    width: 256px;
+    height: 361px;
+  }
+  
+  .flx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .flxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  
+  }
+  
+  .modal-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .modal-footer .btn{
+    background-color: #01634d;
+    border: 1px solid #01634d;
+  }
+  
+  .close{
+    border: none;
+    width: 5%;
+    height: 100%;
+  }
