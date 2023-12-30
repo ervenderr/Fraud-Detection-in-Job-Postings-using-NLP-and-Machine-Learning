@@ -1,0 +1,15 @@
+input_data = [""]
+# convert text to feature vectors
+input_data_features = vect.transform(input_data)
+
+# making prediction
+
+prediction = dt.predict(input_data_features)
+print(prediction)
+
+
+if (prediction[0]==1):
+  print('Fraudulant Job')
+
+else:
+  print('Real Job')
